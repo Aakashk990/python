@@ -1,4 +1,4 @@
-""" Print the following pattern
+""" Print the following pattern half pyramid
 Write a Python code to print the following number pattern using a loop.
 
 1 
@@ -71,7 +71,7 @@ print(b)
 
 """
 
-""" Print the following pattern
+""" Print the following pattern pyramid
 Write a Python program to print the reverse number pattern using a for loop.
 
 5 4 3 2 1 
@@ -89,6 +89,8 @@ for x in range(n,0,-1):
     print("\t\t")
 
 """
+
+
 """Print all prime numbers within a range
 Note: A Prime Number is a number that cannot be made by multiplying other whole numbers. A prime number is a natural number greater than 1 that is not a product of two smaller natural numbers.
 
@@ -121,7 +123,8 @@ for num in range(start, end + 1):
                 break
         else:
             print(num)
-            """
+
+"""
 
 """ prime number
 

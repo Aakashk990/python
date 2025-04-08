@@ -59,7 +59,7 @@ print(text.count("Emma",0,len(text)))
 
 """
 
-""" Print the following pattern
+""" Print the following pattern pyramid
      1
      22
      333
