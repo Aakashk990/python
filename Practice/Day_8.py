@@ -102,3 +102,22 @@ print(char_dict)
 str1 = "PYnative"
 print(str1[::-1])
 """
+
+""" Find the last position of a given substring
+Write a program to find the last position of a substring “Emma” in a given string.
+
+Given:
+
+str1 = "Emma is a data scientist who knows Python. Emma works at google."
+Expected Output:
+
+Last occurrence of Emma starts at index 43
+
+import re
+str = "Emma is a data scientist who knows Python. Emma works at google."
+print(str.rfind("Emma"))
+
+"""
+
+ 
+
