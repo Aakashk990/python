@@ -113,16 +113,28 @@ Expected Output:
 
 Last occurrence of Emma starts at index 43
 
-import re
-str = "Emma is a data scientist who knows Python. Emma works at google."
-print(str.rfind("Emma"))
 
-str1 = "Emma is a data scientist who knows Python. Emma works at google."
-print("Original String is:", str1)
-
-index = str1.rfind("Emma")
-print("Last occurrence of Emma starts at index:", index)
 """
+""" Split a string on hyphens
+Write a program to split a given string on hyphens and display each substring.
 
- 
+Given:
+
+str1 = Emma-is-a-data-scientist
+Expected Output:
+
+Displaying each substring:
+
+Emma
+is
+a
+data
+scientist
+
+str ="Emma-is-a-data-scientist"
+ns=str.split("-")
+#print(ns)
+print("\n".join(ns))
+
+ """
 
