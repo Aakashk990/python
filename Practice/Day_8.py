@@ -96,3 +96,9 @@ for x in str1:
 print(char_dict)
 
 """
+
+""" Reverse a given string
+
+str1 = "PYnative"
+print(str1[::-1])
+"""
