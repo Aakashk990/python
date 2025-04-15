@@ -37,3 +37,18 @@ l=[x**2 for x in numbers]
 print(l)
 
 """
+
+""" Concatenate two lists in the following order
+list1 = ["Hello ", "take "]
+list2 = ["Dear", "Sir"]
+Expected output:
+
+['Hello Dear', 'Hello Sir', 'take Dear', 'take Sir']
+
+
+list1 = ["Hello ", "take "]
+list2 = ["Dear", "Sir"]
+
+print([x+y for x in list1 for y in list2])
+
+"""
