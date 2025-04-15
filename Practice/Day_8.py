@@ -176,3 +176,17 @@ new_str_list = list(filter(None, str_list))
 print("After removing empty strings")
 print(new_str_list)
 """
+
+import re
+str = "/*Jon is @developer & musician"
+ns=re.findall('[^/*@& ]+',str)
+print(' '.join(ns))
+
+import re
+
+str1 = "/*Jon is @developer & musician"
+print("Original string is : ", str1)
+
+# replace special symbols with ''
+res = re.sub(r'[^\w\s]', '', str1)
+print("New string is : ", res)
