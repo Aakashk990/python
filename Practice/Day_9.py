@@ -52,3 +52,12 @@ list2 = ["Dear", "Sir"]
 print([x+y for x in list1 for y in list2])
 
 """
+
+list1 = [10, 20, 30, 40]
+list2 = [100, 200, 300, 400]
+
+list2.reverse()
+l3=list(zip(list1,list2))
+#print(l3)
+for x,y in l3:
+    print(x,y)
