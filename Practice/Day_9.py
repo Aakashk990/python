@@ -53,6 +53,23 @@ print([x+y for x in list1 for y in list2])
 
 """
 
+""" Iterate both lists simultaneously
+Given a two Python list. Write a program to iterate both lists simultaneously and display items from list1 in original order and items from list2 in reverse order.
+
+Given
+
+list1 = [10, 20, 30, 40]
+list2 = [100, 200, 300, 400]
+
+Expected output:
+
+10 400
+20 300
+30 200
+40 100
+
+solution 1- (made by me)
+
 list1 = [10, 20, 30, 40]
 list2 = [100, 200, 300, 400]
 
@@ -61,3 +78,15 @@ l3=list(zip(list1,list2))
 #print(l3)
 for x,y in l3:
     print(x,y)
+
+    
+solution 2- 
+
+list1 = [10, 20, 30, 40]
+list2 = [100, 200, 300, 400]
+
+for x, y in zip(list1, list2[::-1]):
+    print(x, y)
+
+
+    """
