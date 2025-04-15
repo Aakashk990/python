@@ -90,3 +90,36 @@ for x, y in zip(list1, list2[::-1]):
 
 
     """
+
+
+"""Remove empty strings from the list of strings
+list1 = ["Mike", "", "Emma", "Kelly", "", "Brad"]
+Expected output:
+
+["Mike", "Emma", "Kelly", "Brad"]
+
+
+list1 = ["Mike", "", "Emma", "Kelly", "", "Brad"]
+
+# remove None from list1 and convert result into list
+res = list(filter(None, list1))
+print(res)
+
+"""
+
+""" Add new item to list after a specified item
+Write a program to add item 7000 after 6000 in the following Python List
+
+Given:
+
+list1 = [10, 20, [300, 400, [5000, 6000], 500], 30, 40]
+Expected output:
+
+[10, 20, [300, 400, [5000, 6000, 7000], 500], 30, 40]
+
+
+list1 = [10, 20, [300, 400, [5000, 6000], 500], 30, 40]
+list1[2][2].append(7000)
+print(list1)
+
+"""
