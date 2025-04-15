@@ -163,3 +163,25 @@ list1[n]=200
 print(list1)
 
 """
+
+"""Remove all occurrences of a specific item from a list.
+Given a Python list, write a program to remove all occurrences of item 20.
+
+Given:
+list1 = [5, 20, 15, 20, 25, 50, 20]
+Expected output:
+[5, 15, 25, 50]
+
+solution 1-
+list1 = [5, 20, 15, 20, 25, 50, 20]
+print([x for x in list1 if x!=20])
+
+solution 2- 
+
+list1 = [5, 20, 15, 20, 25, 50, 20]
+
+while 20 in list1:
+    list1.remove(20)
+print(list1)
+
+"""
