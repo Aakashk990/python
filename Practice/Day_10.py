@@ -412,6 +412,16 @@ sorted_tuple = tuple(sorted(tuple1, key=itemgetter(1)))
 print(sorted_tuple)
 """
 
+""" Check if all items in the tuple are the same
+
+tuple1 = (45, 45, 45, 45)
+
+Expected output:
+True
+
+tuple1 = (45, 45, 45, 45)
+print(all(x==tuple1[0] for x in tuple1))
+"""
 
 
 
