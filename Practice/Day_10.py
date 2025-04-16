@@ -386,10 +386,32 @@ print(tuple2)
 
 """
 
+""" Sort a tuple of tuples by 2nd item
 
-tuple1 = (11, [22, 33], 44, 55)
-tuple1[1][0]=222
+Given:
+tuple1 = (('a', 23),('b', 37),('c', 11), ('d',29))
+
+Expected output:
+(('c', 11), ('a', 23), ('d', 29), ('b', 37))
+
+solution 1 - using lambda
+
+tuple1 = (('a', 23), ('b', 37), ('c', 11), ('d', 29))
+tuple1 = tuple(sorted(list(tuple1), key=lambda x: x[1]))
 print(tuple1)
+
+solution 2- without using lambda
+
+from operator import itemgetter
+
+tuple1 = (('a', 23), ('b', 37), ('c', 11), ('d', 29))
+
+# Use itemgetter to sort by the second item (index 1)
+sorted_tuple = tuple(sorted(tuple1, key=itemgetter(1)))
+
+print(sorted_tuple)
+"""
+
 
 
 
