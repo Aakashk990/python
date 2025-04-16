@@ -340,6 +340,58 @@ print(d)
 
 """
 
+""" Swap two tuples in Python
+Given:
+
+tuple1 = (11, 22)
+tuple2 = (99, 88)
+Expected output:
+
+tuple1: (99, 88)
+tuple2: (11, 22)
+
+solution 1 - (made by me)
+
+tuple1 = (11, 22)
+tuple2 = (99, 88)
+
+t=tuple1
+tuple1=tuple2
+tuple2=t
+print("Tuple1 :",tuple1,"\n","Tuple2 :",tuple2)
+
+
+solution 2- 
+
+tuple1 = (11, 22)
+tuple2 = (99, 88)
+tuple1, tuple2 = tuple2, tuple1
+print(tuple2)
+print(tuple1)
+"""
+
+"""  Copy specific elements from one tuple to a new tuple
+Write a program to copy elements 44 and 55 from the following tuple into a new tuple.
+
+Given:
+tuple1 = (11, 22, 33, 44, 55, 66)
+
+Expected output:
+tuple2: (44, 55)
+
+
+tuple1 = (11, 22, 33, 44, 55, 66)
+tuple2=tuple1[3:5]
+print(tuple2)
+
+"""
+
+
+tuple1 = (11, [22, 33], 44, 55)
+tuple1[1][0]=222
+print(tuple1)
+
+
 
 
 
