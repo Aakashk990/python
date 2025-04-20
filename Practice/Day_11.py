@@ -111,5 +111,19 @@ print("Printing count of each item : ",new_dict)
 
 
 
+first_list = [2, 3, 4, 5, 6, 7, 8]
+second_list = [4, 9, 16, 25, 36, 49, 64]
+
+t1=set(zip(first_list,second_list))
+print(t1)
+
+
+
+
+
+
+
+
+
 
 
